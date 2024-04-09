@@ -31,7 +31,7 @@ img {
 }
 
 .fadein {
-  animation: fadein 2s;
+  animation: fadein 3s;
 }
 
 @keyframes fadein {

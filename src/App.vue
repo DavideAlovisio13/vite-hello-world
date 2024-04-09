@@ -1,20 +1,22 @@
 <template>
-  <div>
+  <AppHero></AppHero>
+  <AppTitle></AppTitle>
 
-  </div>
 </template>
 
 <script>
-  export default {
-    name: 'App',
-    data() {
-      return {
-        
-      }
-    }
-  }
+import AppTitle from "./components/AppTitle.vue";
+import AppHero from "./components/AppHero.vue";
+export default {
+  name: "App",
+  components: {
+    AppTitle,
+    AppHero,
+  },
+  data() {
+    return {};
+  },
+};
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style scoped></style>
